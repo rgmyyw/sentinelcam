@@ -1,0 +1,19 @@
+# 构建产物
+build/
+*.apk
+*.aab
+*.idsig
+
+# 签名密钥（调试密钥各自生成本地一份即可，见 build.sh）
+*.keystore
+*.jks
+
+# IDE / 系统
+.idea/
+*.iml
+.vscode/
+.DS_Store
+local.properties
+
+# 日志
+*.log
